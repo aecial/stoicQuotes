@@ -2,11 +2,14 @@
     box-sizing: border-box;
 }
 :root {
-    --background: #767266;
+    --background:  rgba(137,139,138,1);
     --text: #ffff;
 }
+html {
+    font-size: 10px;
+}
 body {
-    background-image: url(assets/bg.jpg);
+    background-color: var(--background);
     background-size: cover;
     color: var(--text);
     font-family: sans-serif;
@@ -15,15 +18,41 @@ body {
 }
 #quote-block {
     color: var(--text);
-    margin-top: 50%;
-    width: 25rem;
+    margin-top: 40vh;
+    width: 50rem;
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
 
 }
-a {
-    font-size: 1rem;
-    text-decoration: none;
+#quote {
+    background-color: rgba(137,139,138,0.7);
+    text-shadow: 2px 2px 8px #1c1c1c;
+}
+#author {
+    text-align: left;
+    text-shadow: 2px 2px 8px #1c1c1c;
+}
+
+button {
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+button:hover {
+    background-color: var(--background);
     color: var(--text);
+    border-color: var(--text);
+}
+.btn-div {
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 6px;
+    }
 }

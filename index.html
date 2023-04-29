@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fae056ab45.js" crossorigin="anonymous"></script>
     <title>Stoic Quote Generator</title>
 </head>
 <body>
@@ -12,10 +13,12 @@
         <div id="quote-block">
             <p id="quote">Quote</p>
             <h4 id="author">Author</h4>
-            <button id="new-quote" onclick="newQuote()">NEW QUOTE</button>
+            <div class="btn-div">
+                <button class="btn-tweet" id="tweet-quote" onclick="tweet()"><i class="fa-brands fa-twitter"></i>Tweet</button>
+                <button class="btn-new" id="new-quote" onclick="newQuote()"><i class="fa-solid fa-rotate"></i></button>
+            </div>
         </div>
     </main>
-    <p><a href="https://www.freepik.com/free-photo/beautiful-roman-figure-statue_28126986.htm#query=stoic&position=18&from_view=keyword&track=sph">Image by pikisuperstar</a> on Freepik</p>
 <script src="index.js"></script>
 </body>
 </html>

@@ -18,3 +18,7 @@ function newQuote() {
         // if there is an error print it out on the screen
         .catch(error => console.log(error));
 }
+function tweet() {
+    const newTweet = `https://twitter.com/intent/tweet?text=${quoteContainer.textContent} ${authorContainer.textContent}`;
+    window.open(newTweet, "_blank");
+}
