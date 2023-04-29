@@ -3,7 +3,27 @@
 }
 :root {
     --background: #767266;
+    --text: #ffff;
 }
 body {
-    background-color: var(--background);
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    color: var(--text);
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+}
+#quote-block {
+    color: var(--text);
+    margin-top: 50%;
+    width: 25rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--text);
 }
