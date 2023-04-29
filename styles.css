@@ -45,6 +45,7 @@ button {
     font-size: 1.5rem;
 }
 button:hover {
+    border: 3px solid;
     background-color: var(--background);
     color: var(--text);
     border-color: var(--text);
