@@ -12,7 +12,7 @@ function newQuote() {
         })
         // then that data that is converted to json will be passed on as value of quote and author
         .then(data => {
-            quoteContainer.innerHTML = `" ` + data.text + ` "`;
+            quoteContainer.innerHTML = `"` + data.text + `"`;
             authorContainer.innerHTML = `- ` + data.author;
         })
         // if there is an error print it out on the screen
