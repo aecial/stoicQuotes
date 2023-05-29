@@ -1,6 +1,6 @@
 const quoteContainer = document.getElementById("quote");
 const authorContainer = document.getElementById("author");
-window.navigator.vibrate(600);
+window.onload = window.navigator.vibrate(600);
 window.onload = newQuote;
 
 function newQuote() {
