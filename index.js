@@ -20,6 +20,6 @@ function newQuote() {
 }
 function tweet() {
   // create a new tweet in another tab
-  const newTweet = `https://twitter.com/intent/tweet?text=${quoteContainer.textContent} ${authorContainer.textContent}`;
+  const newTweet = `https://twitter.com/intent/tweet?text=${quoteContainer.textContent} -${authorContainer.textContent}`;
   window.open(newTweet, "_blank");
 }
