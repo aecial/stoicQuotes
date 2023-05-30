@@ -30,14 +30,7 @@ body {
     font-size: 4rem;
 
 }
-#quote {
-    background-color: rgba(137,139,138,0.7);
-    text-shadow: 2px 2px 8px #1c1c1c;
-}
-#author {
-    text-align: left;
-    text-shadow: 2px 2px 8px #1c1c1c;
-}
+
 
 button {
     width: 15rem;
